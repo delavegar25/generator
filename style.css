@@ -97,17 +97,18 @@
   @media(max-width: 750px){
     .quote-container{
       max-width: 700px;
+      position: relative;
     }
 
     #quoteOutput{
-      width: 100px;
+      width: 500px;
       line-height: 50px;
       letter-spacing: 2px;
     }
 
     #authorOutput {
       font-size: 1.2rem;
-      width: 100px;
+      width: 500px;
       text-align: right;
     }
   }
@@ -115,17 +116,18 @@
   @media(max-width: 420px){
     .quote-container{
       max-width: 700px;
+      position: relative;
     }
 
     #quoteOutput{
-      width: 100px;
+      width: 500px;
       line-height: 50px;
       letter-spacing: 2px;
     }
 
     #authorOutput {
       font-size: 1.2rem;
-      width: 100px;
+      width: 500px;
       text-align: right;
     }
   }
