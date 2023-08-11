@@ -58,3 +58,68 @@
       transform: scale(1);
     }
   }
+
+  @media(max-width: 1250px) {
+    .quote-container{
+      max-width: 700px;
+    }
+
+    #quoteOutput{
+       width: 30px;
+    }
+
+    #authorOutput {
+      font-size: 1.2rem;
+      width: 30px;
+      line-height: normal;
+    }
+
+  }
+
+  @media(max-width: 1100px){
+     .quote-container{
+      max-width: 700px;
+     }
+
+     #quoteOutput{
+       width: 30px;
+     }
+
+     #authorOutput {
+      font-size: 1.2rem;
+      width: 30px;
+      line-height: normal;
+    }
+  }
+
+  @media(max-width: 750px){
+    .quote-container{
+      max-width: 700px;
+    }
+
+    #quoteOutput{
+      width: 30px;
+    }
+
+    #authorOutput {
+      font-size: 1.2rem;
+      width: 30px;
+      line-height: normal;
+    }
+  }
+
+  @media(max-width: 420px){
+    .quote-container{
+      max-width: 700px;
+    }
+
+    #quoteOutput{
+      width: 30px;
+    }
+
+    #authorOutput {
+      font-size: 1.2rem;
+      width: 30px;
+      line-height: normal;
+    }
+  }
