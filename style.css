@@ -82,13 +82,15 @@
      }
 
      #quoteOutput{
-       width: 30px;
+       width: 100px;
+       line-height: 50px;
+       letter-spacing: 2px;
      }
 
      #authorOutput {
       font-size: 1.2rem;
       width: 30px;
-      line-height: normal;
+      text-align: right;
     }
   }
 
@@ -98,13 +100,15 @@
     }
 
     #quoteOutput{
-      width: 30px;
+      width: 100px;
+      line-height: 50px;
+      letter-spacing: 2px;
     }
 
     #authorOutput {
       font-size: 1.2rem;
-      width: 30px;
-      line-height: normal;
+      width: 100px;
+      text-align: right;
     }
   }
 
@@ -114,12 +118,14 @@
     }
 
     #quoteOutput{
-      width: 30px;
+      width: 100px;
+      line-height: 50px;
+      letter-spacing: 2px;
     }
 
     #authorOutput {
       font-size: 1.2rem;
-      width: 30px;
-      line-height: normal;
+      width: 100px;
+      text-align: right;
     }
   }
