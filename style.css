@@ -62,16 +62,19 @@
   @media(max-width: 1250px) {
     .quote-container{
       max-width: 700px;
+      position: relative;
     }
 
     #quoteOutput{
-       width: 30px;
+       width: 700px;
+       line-height: 50px;
+       letter-spacing: 2px;
     }
 
     #authorOutput {
       font-size: 1.2rem;
-      width: 30px;
-      line-height: normal;
+      margin-top: 5rem;
+      text-align: right;
     }
 
   }
@@ -79,17 +82,18 @@
   @media(max-width: 1100px){
      .quote-container{
       max-width: 700px;
+      position: relative;
      }
 
      #quoteOutput{
-       width: 100px;
+       width: 700px;
        line-height: 50px;
        letter-spacing: 2px;
      }
 
      #authorOutput {
       font-size: 1.2rem;
-      width: 30px;
+      margin-top: 5rem;
       text-align: right;
     }
   }
@@ -101,14 +105,14 @@
     }
 
     #quoteOutput{
-      width: 500px;
+      width: 700px;
       line-height: 50px;
       letter-spacing: 2px;
     }
 
     #authorOutput {
       font-size: 1.2rem;
-      width: 500px;
+      margin-top: 5rem;
       text-align: right;
     }
   }
@@ -120,14 +124,14 @@
     }
 
     #quoteOutput{
-      width: 500px;
+      width: 700px;
       line-height: 50px;
       letter-spacing: 2px;
     }
 
     #authorOutput {
       font-size: 1.2rem;
-      width: 500px;
+      margin-top: 5rem;
       text-align: right;
     }
   }
